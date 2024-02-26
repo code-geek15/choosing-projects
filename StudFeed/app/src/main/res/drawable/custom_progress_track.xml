@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- Background color of the ProgressBar (set to blue) -->
+<item android:id="@android:id/background">
+    <shape android:shape="rectangle">
+        <solid android:color="#0000FF" /> <!-- Blue color -->
+        <size android:height="2dp" /> <!-- Decrease the height here -->
+    </shape>
+</item>
+<!-- Progress color (red in this case) -->
+<item android:id="@android:id/progress">
+    <clip>
+        <shape android:shape="rectangle">
+            <solid android:color="#FF0000" /> <!-- Red color for progress -->
+            <size android:height="2dp" /> <!-- Decrease the height here -->
+        </shape>
+    </clip>
+</item>
+</selector>
